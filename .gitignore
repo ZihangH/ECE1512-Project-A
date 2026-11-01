@@ -1,0 +1,19 @@
+# LaTeX build products
+# large data / local artefacts (not part of the repo)
+*.h5
+*.pt
+*.zip
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+__pycache__/
+checkpoints/
+feature/
+logs/
+# the PDF report and its LaTeX sources are submitted separately (Quercus), not in this repo; only figures are kept
+report/*
+!report/figs/
+slide/
+_nb_src.ipynb
+executed/*.tmp
+results_abmil_ckpt/*.pt

@@ -1,0 +1,16 @@
+# Versions below are the ones used to produce the reported results (Python 3.12, macOS arm64, CPU).
+torch==2.14.1
+torchmetrics==1.9.0
+h5py==3.16.0
+pandas==3.1.0
+scikit-learn==1.9.1
+scipy==1.18.1
+pyyaml==6.0.3
+numpy==2.5.4
+matplotlib==3.11.2
+openslide-python
+openslide-bin
+# only needed to execute the notebook non-interactively
+jupyter
+nbconvert
+nbformat
